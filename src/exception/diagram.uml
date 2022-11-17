@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="162.0">exception.Exceptions.QuitException</node>
+    <node x="2240.0" y="162.0">exception.Exceptions.NegativeNumberException</node>
+    <node x="1995.9999999999998" y="141.0">exception.Exceptions.OneCharException</node>
+    <node x="210.99999999999977" y="162.0">exception.Exceptions.DotException</node>
+    <node x="1762.9999999999998" y="162.0">exception.Exceptions.DoubleException</node>
+    <node x="410.9999999999998" y="162.0">exception.Exceptions.StringException</node>
+    <node x="1206.953472222222" y="0.0">exception.Exceptions</node>
+    <node x="1540.9999999999998" y="162.0">exception.Exceptions.EmptyException</node>
+    <node x="1041.9999999999998" y="141.0">exception.Exceptions.OutOfRangeException</node>
+    <node x="643.9999999999998" y="162.0">exception.Exceptions.MathematicalOperationException</node>
+    <node x="1318.9999999999998" y="162.0">exception.Exceptions.SpaceException</node>
+    <node x="907.4222222222222" y="334.0">exception.Handle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="exception.Exceptions.EmptyException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="1641.9999999999998" y="111.0" />
+      <point x="1309.653472222222" y="111.0" />
+      <point x="23.700000000000045" y="30.5" />
+    </edge>
+    <edge source="exception.Handle" target="exception.Exceptions.StringException">
+      <point x="-26.875" y="-95.5" />
+      <point x="988.0472222222222" y="274.0" />
+      <point x="517.4999999999998" y="274.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="exception.Handle" target="exception.Exceptions.DoubleException">
+      <point x="62.70833333333326" y="-95.5" />
+      <point x="1077.6305555555555" y="294.0" />
+      <point x="1869.4999999999998" y="294.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.DotException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="300.9999999999998" y="91.0" />
+      <point x="1230.653472222222" y="91.0" />
+      <point x="-55.299999999999955" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.OutOfRangeException" target="exception.Exceptions">
+      <point x="0.0" y="-51.5" />
+      <point x="1170.4999999999998" y="121.0" />
+      <point x="1278.053472222222" y="121.0" />
+      <point x="-7.900000000000091" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.MathematicalOperationException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="832.9999999999998" y="111.0" />
+      <point x="1262.253472222222" y="111.0" />
+      <point x="-23.700000000000045" y="30.5" />
+    </edge>
+    <edge source="exception.Handle" target="exception.Exceptions.QuitException">
+      <point x="-80.625" y="-95.5" />
+      <point x="934.2972222222222" y="304.0" />
+      <point x="143.25" y="304.0" />
+      <point x="47.75" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.QuitException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="95.5" y="81.0" />
+      <point x="1214.853472222222" y="81.0" />
+      <point x="-71.09999999999991" y="30.5" />
+    </edge>
+    <edge source="exception.Handle" target="exception.Exceptions.OneCharException">
+      <point x="80.625" y="-95.5" />
+      <point x="1095.5472222222222" y="304.0" />
+      <point x="2108.0" y="304.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="exception.Handle" target="exception.Exceptions.NegativeNumberException">
+      <point x="98.54166666666674" y="-95.5" />
+      <point x="1113.463888888889" y="314.0" />
+      <point x="2390.5" y="314.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.NegativeNumberException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="2390.5" y="81.0" />
+      <point x="1357.0534722222221" y="81.0" />
+      <point x="71.10000000000014" y="30.5" />
+    </edge>
+    <edge source="exception.Handle" target="exception.Exceptions.DotException">
+      <point x="-62.708333333333485" y="-95.5" />
+      <point x="952.2138888888887" y="294.0" />
+      <point x="255.99999999999977" y="294.0" />
+      <point x="-45.0" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.SpaceException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="1419.9999999999998" y="121.0" />
+      <point x="1293.853472222222" y="121.0" />
+      <point x="7.900000000000091" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.OneCharException" target="exception.Exceptions">
+      <point x="0.0" y="-51.5" />
+      <point x="2108.0" y="91.0" />
+      <point x="1341.253472222222" y="91.0" />
+      <point x="55.299999999999955" y="30.5" />
+    </edge>
+    <edge source="exception.Handle" target="exception.Exceptions.OutOfRangeException">
+      <point x="8.958333333333258" y="-95.5" />
+      <point x="1023.8805555555555" y="264.0" />
+      <point x="1170.4999999999998" y="264.0" />
+      <point x="0.0" y="51.5" />
+    </edge>
+    <edge source="exception.Handle" target="exception.Exceptions.EmptyException">
+      <point x="44.79166666666674" y="-95.5" />
+      <point x="1059.713888888889" y="284.0" />
+      <point x="1641.9999999999998" y="284.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="exception.Handle" target="exception.Exceptions.MathematicalOperationException">
+      <point x="-8.958333333333258" y="-95.5" />
+      <point x="1005.963888888889" y="264.0" />
+      <point x="832.9999999999998" y="264.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.StringException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="517.4999999999998" y="101.0" />
+      <point x="1246.453472222222" y="101.0" />
+      <point x="-39.5" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.DoubleException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="1869.4999999999998" y="101.0" />
+      <point x="1325.453472222222" y="101.0" />
+      <point x="39.5" y="30.5" />
+    </edge>
+    <edge source="exception.Handle" target="exception.Exceptions.SpaceException">
+      <point x="26.875" y="-95.5" />
+      <point x="1041.7972222222222" y="274.0" />
+      <point x="1419.9999999999998" y="274.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.38461538461538464" x="1270.5" y="262.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
