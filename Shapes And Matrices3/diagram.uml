@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1388.0" y="209.0">Shape.Parallelogram</node>
+    <node x="820.0" y="1401.0">exception.Exceptions.DoubleException</node>
+    <node x="2059.0" y="209.0">Shape.Square</node>
+    <node x="321.0" y="1380.0">exception.Exceptions.OutOfRangeException</node>
+    <node x="598.0" y="1401.0">exception.Exceptions.SpaceException</node>
+    <node x="0.0" y="0.0">Matrix.Matrices</node>
+    <node x="206.0" y="1528.0">exception.Handle</node>
+    <node x="1143.0" y="209.0">Shape.Triangle</node>
+    <node x="1297.0" y="1401.0">exception.Exceptions.DotException</node>
+    <node x="1053.0" y="1380.0">exception.Exceptions.OneCharException</node>
+    <node x="0.0" y="1528.0">Sections.MainShape</node>
+    <node x="1434.5" y="0.0">Shape.Shapes</node>
+    <node x="794.0" y="209.0">Shape.Trapezoidal</node>
+    <node x="1497.0" y="1401.0">exception.Exceptions.StringException</node>
+    <node x="2128.0" y="1401.0">exception.Exceptions.EmptyException</node>
+    <node x="1730.0" y="1401.0">exception.Exceptions.MathematicalOperationException</node>
+    <node x="1664.0" y="209.0">Shape.Rectangle</node>
+    <node x="0.0" y="828.0">Matrix.MatricesWithPair</node>
+    <node x="300.0" y="0.0">Color.RGB</node>
+    <node x="1876.0" y="209.0">Shape.Circle</node>
+    <node x="2350.0" y="1401.0">exception.Exceptions.QuitException</node>
+    <node x="0.0" y="1401.0">exception.Exceptions.NegativeNumberException</node>
+    <node x="583.0" y="209.0">Shape.Rhombus</node>
+    <node x="1197.0" y="1239.0">exception.Exceptions</node>
+    <node x="466.0" y="1528.0">Run.App</node>
+    <node x="108.5" y="1069.0">Matrix.MatricesWithPair.Pair</node>
+    <node x="361.0" y="828.0">Sections.MainMatrices</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="exception.Exceptions.DotException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="1387.0" y="1360.0" />
+      <point x="1283.9" y="1360.0" />
+      <point x="7.900000000000091" y="30.5" />
+    </edge>
+    <edge source="Shape.Circle" target="Shape.Shapes">
+      <point x="0.0" y="-106.5" />
+      <point x="1957.5" y="179.0" />
+      <point x="1562.5714285714284" y="179.0" />
+      <point x="46.57142857142844" y="74.5" />
+    </edge>
+    <edge source="exception.Exceptions.MathematicalOperationException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="1919.0" y="1340.0" />
+      <point x="1315.5" y="1340.0" />
+      <point x="39.5" y="30.5" />
+    </edge>
+    <edge source="Shape.Rectangle" target="Shape.Shapes">
+      <point x="0.0" y="-106.5" />
+      <point x="1760.0" y="189.0" />
+      <point x="1539.2857142857147" y="189.0" />
+      <point x="23.285714285714675" y="74.5" />
+    </edge>
+    <edge source="Shape.Square" target="Shape.Shapes">
+      <point x="0.0" y="-106.5" />
+      <point x="2140.5" y="169.0" />
+      <point x="1585.8571428571431" y="169.0" />
+      <point x="69.85714285714312" y="74.5" />
+    </edge>
+    <edge source="Shape.Parallelogram" target="Shape.Shapes">
+      <point x="0.0" y="-106.5" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="Shape.Trapezoidal" target="Shape.Shapes">
+      <point x="0.0" y="-106.5" />
+      <point x="958.5" y="179.0" />
+      <point x="1469.4285714285716" y="179.0" />
+      <point x="-46.57142857142844" y="74.5" />
+    </edge>
+    <edge source="exception.Exceptions.OutOfRangeException" target="exception.Exceptions">
+      <point x="0.0" y="-51.5" />
+      <point x="449.5" y="1330.0" />
+      <point x="1220.6999999999998" y="1330.0" />
+      <point x="-55.30000000000018" y="30.5" />
+    </edge>
+    <edge source="Shape.Rhombus" target="Shape.Shapes">
+      <point x="0.0" y="-106.5" />
+      <point x="678.5" y="169.0" />
+      <point x="1446.1428571428569" y="169.0" />
+      <point x="-69.85714285714312" y="74.5" />
+    </edge>
+    <edge source="Shape.Triangle" target="Shape.Shapes">
+      <point x="0.0" y="-106.5" />
+      <point x="1255.5" y="189.0" />
+      <point x="1492.7142857142853" y="189.0" />
+      <point x="-23.285714285714675" y="74.5" />
+    </edge>
+    <edge source="exception.Exceptions.SpaceException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="699.0" y="1340.0" />
+      <point x="1236.5" y="1340.0" />
+      <point x="-39.5" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.DoubleException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="926.5" y="1350.0" />
+      <point x="1252.3000000000002" y="1350.0" />
+      <point x="-23.699999999999818" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.OneCharException" target="exception.Exceptions">
+      <point x="0.0" y="-51.5" />
+      <point x="1165.0" y="1360.0" />
+      <point x="1268.1" y="1360.0" />
+      <point x="-7.900000000000091" y="30.5" />
+    </edge>
+    <edge source="Matrix.MatricesWithPair.Pair" target="Matrix.MatricesWithPair">
+      <point x="0.0" y="-62.5" />
+      <point x="0.0" y="95.5" />
+    </edge>
+    <edge source="exception.Exceptions.EmptyException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="2229.0" y="1330.0" />
+      <point x="1331.3000000000002" y="1330.0" />
+      <point x="55.30000000000018" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.QuitException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="2445.5" y="1320.0" />
+      <point x="1347.1" y="1320.0" />
+      <point x="71.09999999999991" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.NegativeNumberException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="150.5" y="1320.0" />
+      <point x="1204.9" y="1320.0" />
+      <point x="-71.09999999999991" y="30.5" />
+    </edge>
+    <edge source="exception.Exceptions.StringException" target="exception.Exceptions">
+      <point x="0.0" y="-30.5" />
+      <point x="1603.5" y="1350.0" />
+      <point x="1299.6999999999998" y="1350.0" />
+      <point x="23.699999999999818" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.38461538461538464" x="1270.5" y="860.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>Production</SCOPE>
+  <VISIBILITY>public</VISIBILITY>
+</Diagram>
+
