@@ -28,9 +28,9 @@
     - Solve Equation.
     - Inverse.
     ***
-    > **_`Note : We Know (Add, Sub) One Number To Matrix Not Mathematically Correct, But You May Need It Sometimes So We Provided This Service.`_**
+     **_`Note : We Know (Add, Sub) One Number To Matrix Not Mathematically Correct, But You May Need It Sometimes So We Provided This Service.`_**
   ***
-  > **_`Note : Any Operation Generate Matrix This Matrix Stored Automatically.`_**
+   **_`Note : Any Operation Generate Matrix This Matrix Stored Automatically.`_**
 
 ---
 
